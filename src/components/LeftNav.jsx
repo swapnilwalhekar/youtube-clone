@@ -25,7 +25,7 @@ const LeftNav = () => {
 
   return (
     <div
-      className={`md:block w-[240px] overflow-y-auto h-full py-4 bg-black absolute md:relative z-10 translate-x-[-240px] md:translate-x-0 transition-all ${
+      className={`scrollbar scrollbar-thumb-black-900 scrollbar-track-black-100 md:block w-[240px] overflow-y-auto h-full py-4 bg-black absolute md:relative z-10 translate-x-[-240px] md:translate-x-0 transition-all ${
         mobileMenu ? "translate-x-0" : ""
       }`}
     >

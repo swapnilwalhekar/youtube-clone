@@ -13,7 +13,7 @@ const Feed = () => {
   return (
     <div className="flex flex-row h-[calc(100%-56px)]">
       <LeftNav />
-      <div className="grow w-[calc(100%-240px)] h-full overflow-y-auto bg-black">
+      <div className="grow w-[calc(100%-240px)] h-full overflow-y-auto bg-black scrollbar scrollbar-thumb-black-900 scrollbar-track-black-100 md:block">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 p-5">
           {!loading &&
             searchResults &&
